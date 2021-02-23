@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Frameworks">
+  <test name="datadriven">
+    <classes>
+      
+      <class name="DriverFactory.DataDrivenScript"/>
+    </classes>
+  </test> <!-- datadriven -->
+  <test name="keyword">
+    <classes>
+     
+      <class name="DriverFactory.DriverScriptKeyword"/>
+      
+    </classes>
+  </test> <!-- datadriven -->
+  <test name="Hybrid">
+    <classes>
+      <class name="DriverFactory.DriverScriptHybrid"/>
+      
+    </classes>
+  </test> <!-- datadriven -->
+</suite> <!-- Frameworks -->
